@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma;
+  color: #40514e;
+}
+.top-container {
+  background-color: #e3f6f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Satisfy", cursive;
+  font-size: 5.625em;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 2.5em;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+.intro {
+  width: 30%;
+
+  margin: auto;
+}
+p {
+  line-height: 2;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  color: #11999e;
+}
+
+hr {
+  color: #d9dad7;
+  border-style: dotted none none none;
+  border-width: 10px;
+  width: 8%;
+  margin: 100px auto 100px auto;
+}
+
+.middle-container {
+  background-color: #fafafa;
+  padding: 100px 0 100px 0;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 30px 0 30px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 400px;
+  left: 300px;
+}
+.profile-pic {
+  margin-top: 20px;
+  border-radius: 200px;
+  width: 150px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.qa-testing {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.italian {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.italian-skill {
+  margin-top: 100px;
+}
+
+.name-footer {
+  color: #eaf6f6;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #11999e;
+  font-weight: bold;
+  margin: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+.footer-link-icons {
+  text-decoration: none;
+  color: #11999e;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+}
+.footer-link:hover {
+  text-decoration: underline;
+  color: #eaf6f6;
+}
+
+.footer-link-icons:hover {
+  text-decoration: underline;
+  color: #eaf6f6;
+}
+
+.text-contact {
+  margin-bottom: 50px;
+}
+.contact-me-button {
+  color: white;
+  background-color: #66bfbf;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  padding: 10px 15px 10px 15px;
+  box-shadow: 1px 2px 2px black;
+  transition: 200ms ease-in-out;
+  text-decoration: none;
+}
+
+.contact-me-button:hover {
+  background-color: white;
+  color: #11999e;
+  cursor: pointer;
+}
